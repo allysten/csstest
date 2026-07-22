@@ -5,20 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My First Styled Page</title>
     
-    <!-- Here is where all the CSS lives -->
     <style>
-        /* The body styles control the whole page background and center the card */
         body {
             background-color: #e2e8f0;
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             display: flex;
             justify-content: center;
             align-items: center;
-            height: 100vh; /* Makes the page take up 100% of the screen height */
+            height: 100vh; 
             margin: 0;
         }
 
-        /* The card styles make the white box with rounded corners and a shadow */
         .card {
             background-color: white;
             padding: 40px;
@@ -39,7 +36,6 @@
             margin-bottom: 30px;
         }
 
-        /* The button styles make it look clickable and modern */
         button {
             background-color: #3b82f6;
             color: white;
@@ -52,16 +48,14 @@
             transition: background-color 0.3s ease, transform 0.1s ease;
         }
 
-        /* This creates the interaction when you hover your mouse over the button */
         button:hover {
             background-color: #2563eb;
-            transform: scale(1.05); /* Makes the button 5% bigger */
+            transform: scale(1.05); 
         }
     </style>
 </head>
 <body>
 
-    <!-- Here is the actual HTML structure that the user sees -->
     <div class="card">
         <h1>Hello, World! 🌍</h1>
         <p>This is a complete webpage all in one file. The HTML provides the words and structure, and the CSS block at the top makes it look like a modern card.</p>
